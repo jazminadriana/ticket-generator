@@ -24,7 +24,7 @@
   );
   --shadow-glow: 0 0 20px hsla(7, 88%, 67%, 0.3);
 
-  --ff-primary: Inconsolata, monospace;
+  --font-primary: Inconsolata, monospace;
 }
 
 body {

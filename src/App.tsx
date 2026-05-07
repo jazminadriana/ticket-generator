@@ -1,7 +1,9 @@
+import { TicketFormPage } from './components/TicketFormPage/TicketFormPage';
+
 function App() {
   return (
     <>
-      <h1>Get started</h1>
+      <TicketFormPage />
     </>
   );
 }
