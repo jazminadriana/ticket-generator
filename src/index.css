@@ -15,18 +15,35 @@
   --color-neutral-500: hsl(245, 15%, 58%);
   --color-neutral-700: hsl(245, 19%, 35%);
   --color-neutral-900: hsl(248, 70%, 10%);
+
   --color-orange-500: hsl(7, 88%, 67%);
   --color-orange-700: hsl(7, 71%, 60%);
+
+  --color-brand-pink: hsl(330, 100%, 70%);
+  --color-brand-purple: hsl(270, 100%, 75%);
+
   --bg-image-text-gradient: linear-gradient(
     to right,
-    hsl(7, 86%, 67%),
-    hsl(0, 0%, 100%)
+    var(--color-brand-pink),
+    var(--color-brand-purple)
   );
-  --shadow-glow: 0 0 20px hsla(7, 88%, 67%, 0.3);
+
+  --shadow-glow: 0 0 25px hsla(330, 100%, 70%, 0.4);
 
   --font-primary: Inconsolata, monospace;
 }
 
 body {
-  @apply bg-neutral-900 text-neutral-0 font-primary;
+  @apply bg-[#0b071e] text-neutral-0 font-primary min-h-screen;
+  background-image: radial-gradient(
+    circle at top right,
+    rgba(179, 136, 255, 0.1),
+    transparent
+  );
+}
+
+.text-gradient {
+  background: var(--bg-image-text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
