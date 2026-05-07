@@ -1,6 +1,6 @@
-import { UploadInput } from './ui/UploadInput';
-import { TextInput } from './ui/TextInput';
-import { Button } from './ui/Button';
+import { UploadInput } from '../ui/UploadInput';
+import { TextInput } from '../ui/TextInput';
+import { Button } from '../ui/Button';
 
 export const Form = () => {
   return (
