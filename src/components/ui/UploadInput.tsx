@@ -31,7 +31,7 @@ export const UploadInput = () => {
 
       <div className="flex items-center gap-2 text-neutral-400">
         <img src={iconInfo} alt="info" className="size-4 opacity-70" />
-        <p className="text-xs md:text-sm">
+        <p className="text-xs md:text-sm text-neutral-300">
           Upload your photo (JPG or PNG, max size: 500KB)
         </p>
       </div>
