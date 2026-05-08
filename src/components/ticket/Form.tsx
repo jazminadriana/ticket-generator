@@ -17,7 +17,7 @@ export const Form = () => {
         <TextInput label="Instagram Username" placeholder="@youruser" />
       </div>
       <div className="pt-4">
-        <Button />
+        <Button text="Generate My Pass" />
       </div>
     </form>
   );
