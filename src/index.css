@@ -16,11 +16,8 @@
   --color-neutral-700: hsl(245, 19%, 35%);
   --color-neutral-900: hsl(248, 70%, 10%);
 
-  --color-orange-500: hsl(7, 88%, 67%);
-  --color-orange-700: hsl(7, 71%, 60%);
-
-  --color-brand-pink: hsl(330, 100%, 70%);
-  --color-brand-purple: hsl(270, 100%, 75%);
+  --color-brand-pink: #eb7197;
+  --color-brand-purple: #8c52ff;
 
   --bg-image-text-gradient: linear-gradient(
     to right,

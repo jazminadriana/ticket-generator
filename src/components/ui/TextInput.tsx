@@ -17,7 +17,7 @@ export const TextInput = ({ label, placeholder, type = 'text' }: Props) => {
         placeholder={placeholder}
         className="
         h-[56px] px-4 rounded-xl
-        bg-neutral-800/50
+        bg-neutral-800/70
         text-neutral-0 placeholder:text-neutral-200
         transition-all duration-200
         focus:outline-none focus:border-brand-pink focus:ring-1 focus:ring-brand-pink/30
