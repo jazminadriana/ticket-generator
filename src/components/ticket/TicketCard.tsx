@@ -4,7 +4,7 @@ import { TicketUserInfo } from './subcomponents/TicketUserInfo';
 export const TicketCard = () => {
   return (
     <>
-      <SuccessMessage />
+      <SuccessMessage name="John Doe" email="john.doe@example.com" />
       <TicketUserInfo />
     </>
   );

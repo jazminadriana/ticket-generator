@@ -16,8 +16,9 @@ export const SuccessMessage = ({ name, email }: SuccessMessageProps) => {
           Your Training Pass is Ready.
         </h1>
         <p className="mx-auto max-w-2xl text-center text-lg font-medium text-neutral-300 leading-relaxed">
-          We've emailed your pass <span className="text-pink-400">{email}</span>{' '}
-          and look forward to seeing you at the studio.
+          We've emailed your pass to{' '}
+          <span className="text-pink-400">{email}</span> and look forward to
+          seeing you at the studio.
         </p>
       </section>
     </header>
