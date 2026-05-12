@@ -31,7 +31,7 @@
 }
 
 #root {
-  min-h-screen;
+  @apply min-h-screen;
 }
 
 body {
