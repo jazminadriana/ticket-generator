@@ -3,7 +3,10 @@ import { Form } from './Form';
 
 export const TicketFormPage = () => {
   return (
-    <section className="max-w-[450px] md:max-w-[600px] mx-auto px-4 pb-20 space-y-10">
+    <section
+      className="max-w-[450px] md:max-w-[600px] mx-auto px-4 pb-20 space-y-10 
+    min-h-screen w-full bg-cover bg-no-repeat"
+    >
       <Hero />
       <Form />
     </section>

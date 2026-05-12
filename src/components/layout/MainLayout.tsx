@@ -16,12 +16,16 @@ export const MainLayout = ({ children }: Props) => {
   return (
     <main
       className="
+        display-grid
+        min-h-screen w-full
+        bg-cover bg-[length:100%_100%] bg-no-repeat
         py-8 px-4
-        bg-cover bg-bottom
+        bg-fixed
         bg-[image:var(--bg-image-mobile)]
         md:bg-[image:var(--bg-image-tablet)]
         lg:bg-[image:var(--bg-image-desktop)]
-        relative overflow-hidden
+        relative overflow-x-hidden
+        flex flex-col items-center
       "
       style={
         {

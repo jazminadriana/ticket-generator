@@ -30,6 +30,10 @@
   --font-primary: Inconsolata, monospace;
 }
 
+#root {
+  min-h-screen;
+}
+
 body {
   @apply bg-[#0b071e] text-neutral-0 font-primary min-h-screen;
   background-image: radial-gradient(
