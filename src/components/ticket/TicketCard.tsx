@@ -1,5 +1,7 @@
+import { Form } from './Form';
 import { SuccessMessage } from './subcomponents/SuccessMessage';
 import { TicketUserInfo } from './subcomponents/TicketUserInfo';
+import { TicketFormPage } from './TicketFormPage';
 
 export const TicketCard = () => {
   return (
